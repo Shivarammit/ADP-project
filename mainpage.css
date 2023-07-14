@@ -1,0 +1,49 @@
+body,html{
+	background-color:231942;
+	body:100%;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:rgba(0,0,0,0.3);
+	width:100%;
+}
+li{
+	float:left;
+	font-size:18px;
+	font-family:sans-serif;
+}
+li a{
+	padding:14px 16px;
+	display:block;
+	color:grey;
+	text-align:center;
+	text-decoration:none;
+}
+li a:hover{
+	filter: brightness(150%);
+}
+button{
+	float:right;
+	height:40px;
+	background-color:rgba(0,0,0,0.3);
+	color:white;
+	width:90px;
+	border-radius:10px;
+}
+button:hover{
+	background-color:#666666;
+}
+#typed:after{
+	content:"|";
+}
+h1{
+	color:#bfbfbf;
+	font-family:monospace;
+	position:absolute;
+	top:30%;
+	left:38%;
+	font-size:50px;
+}

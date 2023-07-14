@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href="mainpage.css">
+<script>
+var i = 0;
+var txt = 'WELCOME TO GITHUB';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typed").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+<body onload="typeWriter()">
+<ul>
+	<li><a href="#">PRODUCT</a><li>
+	<li><a href>SOLUTIONS</a></li>
+	<li><a href="#">OPEN SOURCE</a></li>
+	<li><a href="#">PRICING</a></li>
+	<button>SIGN IN</button>
+</ul>
+<div class="container">
+<h1 id="typed"></h1>
+</body>
