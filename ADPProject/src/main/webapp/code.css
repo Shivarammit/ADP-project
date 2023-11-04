@@ -1,0 +1,22 @@
+textarea{
+	resize:none;
+	height:80%;
+	width:90%;
+	background-color:#1D1A31;
+	border:none;
+	color: white;
+}
+.code-display{
+	display:flex;
+	padding:10px;
+	justify-content:center;
+	align-items:center;
+	height:70%;
+	margin:1%;
+	background-color:#1D1A31;
+	border-radius:10px;
+	flex-wrap:wrap;
+}
+.info{
+	width:100%;
+}

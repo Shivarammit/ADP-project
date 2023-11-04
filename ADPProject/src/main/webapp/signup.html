@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>Sign-up form</title>
+    <script src="sign_01.js"></script>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #signup-form-container {
+            height : 475px;
+            width : 400px;
+            padding: 10px;
+            margin : auto;
+            border : 2px solid white;
+            border-radius: 10px;
+            text-align:center;
+            margin-top: 100px;
+            background-color: rgb(27, 27, 27);
+        }
+        button{
+            height: 30px;
+            width: 100px;
+            background-color: transparent;
+            border-radius: 20px;
+            color: white;
+            border: 2px solid white;
+            transition-property: width;
+            transition-duration: 1s;
+        }
+        button:hover{
+            width: 130px;
+            border-color: rgb(137, 19, 255);
+            
+        }
+        input{
+            border-radius: 20px;
+            background-color: black;
+            border: 2px solid white;
+            color:white
+        }
+    </style>
+</head>
+<body>
+    <div id="signup-form-container">
+    <form action="SignUp" method="post">
+        <h1>Sign Up</h1>
+        <label for="username">Username:</label><br>
+        <input type="text" name="uname" required><br><br>
+
+        <label for="mail">Email:</label><br>
+        <input type="email" name="mail" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" name="pwd" required><br><br>
+
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" name="cpwd" required><br><br>
+
+        <label for="number">Mobile number :</label><br>
+        <input type="text" name="number" required><br><br>
+
+        <button type="submit">SIGN UP</button>
+
+        <p>Already have an account :<a href="signin_01.html">Sign-in</a></p>
+    </form>
+    <p></p>
+
+
+</div>    
+</body>
+</html>

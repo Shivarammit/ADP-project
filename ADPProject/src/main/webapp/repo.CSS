@@ -1,0 +1,32 @@
+.repo-menu{
+	padding:10px;
+	height:70%;
+	margin:1%;
+	background-color:rgb(24,23,27);
+	border-radius:10px;
+}
+.main-container{
+	display:flex;
+}
+.container{
+	margin:1%;
+	width:50%;
+	border-radius:10px;
+	border:2px solid black;
+	padding:10px;
+}
+.element{
+	border:1px solid white;
+	border-radius:10px;
+	margin:5px;
+	padding:5px;
+	transition:200ms;
+}
+.element:hover{
+	border:2px solid black;
+}
+.icon{
+	width:20px;
+	height:20px;
+	border-radius:10px;
+}
